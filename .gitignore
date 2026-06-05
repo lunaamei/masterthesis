@@ -1,0 +1,20 @@
+cat > .gitignore << 'EOF'
+# MRI/NIfTI data
+*.nii
+*.nii.gz
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+
+# Mac files
+.DS_Store
+
+# Word temporary files
+~$*
+
+# Python cache
+__pycache__/
+*.pyc
+EOF
