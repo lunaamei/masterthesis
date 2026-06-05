@@ -35,8 +35,8 @@
 ### Encoding Models
 
 1. **dprime_may.m**
-   - One-sample t-test with Bonferroni correction (n=18)
-   - Paired t-test with Bonferroni correction (n=9 pairwise comparisons)
+   - One-sample t-test with Bonferroni correction (n=15)
+   - Paired t-test with Bonferroni correction (n=3 pairwise comparisons)
 
 2. **RSA_may.m**
    - Correlates model RDMs to fMRI RDM
