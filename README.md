@@ -35,16 +35,18 @@
 ### Encoding Models
 
 1. **dprime_may.m**
+   - Computes d-prime selectivity
+   - Runs 3 (condition) × 5 (category) two-way ANOVA
    - One-sample t-test with Bonferroni correction (n=15)
    - Paired t-test with Bonferroni correction (n=3 pairwise comparisons)
 
-2. **RSA_may.m**
+3. **RSA_may.m**
    - Correlates model RDMs to fMRI RDM
    - Runs repeated measures ANOVA with condition and category on the correlations
-   - One-sample t-test with Bonferroni correction (n=18)
-   - Paired t-test with Bonferroni correction (n=9 pairwise comparisons)
+   - One-sample t-test with Bonferroni correction (n=6)
+   - Paired t-test with Bonferroni correction (n=3 pairwise comparisons)
 
-3. **rsa_2x3_anova.m**
+4. **rsa_2x3_anova.m**
    - Each correlation tested against baseline with a one-sample t-test (Bonferroni n=6: 2 models × 3 conditions per ROI)
    - Paired t-tests between models (Bonferroni n=3 per ROI)
    - Conditions compared within model (Bonferroni n=6: 3 conditions × 2 models per ROI)
