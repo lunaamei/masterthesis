@@ -42,9 +42,8 @@
 
 3. **RSA_may.m**
    - Correlates model RDMs to fMRI RDM
-   - Runs repeated measures ANOVA with condition and category on the correlations
-   - One-sample t-test with Bonferroni correction (n=6)
-   - Paired t-test with Bonferroni correction (n=3 pairwise comparisons)
+   - save subject-wise correlations
+  
 
 4. **rsa_2x3_anova.m**
    - Each correlation tested against baseline with a one-sample t-test (Bonferroni n=6: 2 models × 3 conditions per ROI)
